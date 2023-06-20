@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, TextInput } from 'react-native';
+import { View, Text, Image, TouchableOpacity, TextInput, Platform } from 'react-native';
 import { styles } from './styles';
 
 import logininstagram from './src/assets/instagram.png';
@@ -12,12 +12,12 @@ const App = () => {
 		</TouchableOpacity>
 		<TextInput
 			placeholder='Nome de usuário, email ou número de celular'
-			placeholderTextColor='#555'
+			placeholderTextColor='#E0E0E0'
 			style={styles.input}
 		/>
     <TextInput
 			placeholder='Senha'
-			placeholderTextColor='#555'
+			placeholderTextColor='#E0E0E0'
 			style={styles.input}
 		/>
    <TouchableOpacity style={styles.loginButtom}>
