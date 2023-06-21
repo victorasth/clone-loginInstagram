@@ -5,7 +5,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
 		flex:1,
         backgroundColor: '#edf4fe',
-         paddingTop: 30,
+         paddingTop: 60,
          paddingHorizontal: 8
 	},
 	title: {
@@ -14,8 +14,8 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
 	image: {
-        marginTop: Platform.OS === 'android' ? '8%' : '10%',
-        marginBottom: Platform.OS === 'android' ? '13%' : '10%',
+        marginTop: Platform.OS === 'android' ? '8%' : '12%',
+        marginBottom: Platform.OS === 'android' ? '13%' : '20%',
         width: 100, 
         height: 120,
     },
@@ -80,7 +80,7 @@ export const styles = StyleSheet.create({
         borderWidth: 1.5,
         width:'95%',
         height:50,
-        borderRadius: 50,
+        borderRadius: 20,
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: '55%'
@@ -99,12 +99,7 @@ export const styles = StyleSheet.create({
         height: 30,
     },
 
-    // passwordIconContainer: {
-    //     position: 'absolute',
-    //     right: 10,
-    //     height: '100%',
-    //     justifyContent: 'center',
-    //   },
+    
 
      
 });

@@ -63,9 +63,9 @@ const Login: React.FC<Props> = ({ navigation }) => {
   />
 </View>
 
-   <TouchableOpacity style={styles.loginButtom}>
+   <TouchableOpacity onPress={() => navigation.navigate('FirstPage')} style={styles.loginButtom}>
       <Text style={styles.loginText}>Entrar</Text>
-   </TouchableOpacity>
+   </TouchableOpacity> 
 
    <View style={styles.forgotContainer}>
      <TouchableOpacity>
