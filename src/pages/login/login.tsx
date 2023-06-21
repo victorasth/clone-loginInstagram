@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { View, Text, Image, TouchableOpacity, TextInput, Platform } from 'react-native';
+import { View, Text, Image, TouchableOpacity, TextInput } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../../routes/routes';
 import PasswordToggle from '../../PasswordToggle';
