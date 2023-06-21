@@ -26,5 +26,14 @@ export const styles = StyleSheet.create({
         height: 100,
         marginTop:30,
     },
+
+    texto:{
+        marginTop: 10,
+        textAlign: 'center',
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: 'black'
+
+    },
 }
 );

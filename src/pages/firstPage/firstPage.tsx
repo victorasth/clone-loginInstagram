@@ -38,19 +38,19 @@ const FirstPage: React.FC<Props> = ({ navigation }) => {
                 <Image style={styles.image} source={Serratec} />
             </TouchableOpacity>
 
-            <Text>Atividade desenvolvida por Victor Asth para a disciplina de Desenvolvimento de Aplicativo Mobile do curso Serratec</Text>
+            <Text style={styles.texto}>Atividade desenvolvida por Victor Asth para a disciplina de Desenvolvimento de Aplicativo Mobile do curso Serratec</Text>
 
             <TouchableOpacity onPress={openExternalLinkedin} activeOpacity={0.7}>
                 <Image style={styles.image2} source={Fotoperfil} />
             </TouchableOpacity>
 
-            <Text>A proposta do Professor Fred era que o aluno escolhece um aplicativo famoso e clonasse sua página de Login e fizesse uma rota para uma nova página a sua escolha.</Text>
+            <Text style={styles.texto}>A proposta do Professor Fred era que o aluno escolhece um aplicativo famoso e clonasse sua página de Login e fizesse uma rota para uma nova página a sua escolha.</Text>
             
             <TouchableOpacity onPress={openExternalLinkInst}>
             <Image style={styles.image3} source={Logininstagram} />
             </TouchableOpacity>
             
-            <Text>O aplicativo escolhido foi o Instagram.</Text>
+            <Text style={styles.texto} >O aplicativo escolhido foi o Instagram.</Text>
 
             <TouchableOpacity onPress={openExternalLinkGit}>
                 <Image style={styles.image3} source={GitHub} />
