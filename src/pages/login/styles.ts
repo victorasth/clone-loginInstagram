@@ -14,8 +14,8 @@ export const styles = StyleSheet.create({
         fontWeight: 'bold'
     },
 	image: {
-        marginTop: Platform.OS === 'android' ? '13%' : '20%',
-        marginBottom: Platform.OS === 'android' ? '13%' : '15%',
+        marginTop: Platform.OS === 'android' ? '8%' : '10%',
+        marginBottom: Platform.OS === 'android' ? '13%' : '10%',
         width: 100, 
         height: 120,
     },
@@ -34,23 +34,19 @@ export const styles = StyleSheet.create({
         
     },
 
-    inputSenha: {
-        width: '100%',
-        padding: 10,
-        // borderBottomWidth: 1,
-      },
+   
 
     passwordInputContainer:{
-        backgroundColor:'#ffffff',
-        width:'95%',
-        height:60,
-        color: '#black',
+         backgroundColor:'#ffffff',
+         width:'95%',
+         height:60,
+         color: '#black',
         fontSize: 14,
-        padding: Platform.OS === 'ios' ? 13 : 10,
-        marginBottom: '3%',
-        borderRadius: 12,
+         padding: Platform.OS === 'ios' ? 13 : 10,
+         marginBottom: '3%',
+         borderRadius: 12,
         borderWidth: 1,
-        borderColor: '#c1c2c4',
+         borderColor: '#c1c2c4',
         justifyContent: 'center'
     },
     
@@ -97,7 +93,10 @@ export const styles = StyleSheet.create({
     },
 
     image2:{
-        marginTop: 1,
+        tintColor: "#404e57",
+        marginTop:10,
+        width: 60, 
+        height: 30,
     },
 
     // passwordIconContainer: {
