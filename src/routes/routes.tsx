@@ -21,12 +21,12 @@ const Routes = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen name="Home" component={HomeScreen} options={{headerShown: false}}/>
-        <Stack.Screen name="Login" component={Login} options={{headerShown: false}}/>
-        <Stack.Screen name="ForgotPassword" component={ForgotPassword}options= {{headerShown: false}} />
-        <Stack.Screen name="ForgotPasswordCell" component={ForgotPasswordCell}options= {{headerShown: false}} />
-        <Stack.Screen name="FirstPage" component={FirstPage}options= {{headerShown: false}} />
-        </Stack.Navigator>
+        <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="Login" component={Login} options={{ headerShown: false }} />
+        <Stack.Screen name="ForgotPassword" component={ForgotPassword} options={{ headerShown: false }} />
+        <Stack.Screen name="ForgotPasswordCell" component={ForgotPasswordCell} options={{ headerShown: false }} />
+        <Stack.Screen name="FirstPage" component={FirstPage} options={{ headerShown: false }} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, View, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useColorScheme } from 'react-native-appearance';
+
 
 interface PasswordToggleProps {
   onToggle: () => void;
@@ -15,7 +15,7 @@ const PasswordToggle: React.FC<PasswordToggleProps> = ({
   isFocused,
 }) => {
   if (!isFocused) {
-    return null; 
+    return null;
   }
 
   return (

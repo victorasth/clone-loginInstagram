@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, Button, TouchableOpacity} from 'react-native';
+import { View, Text, Image, Button, TouchableOpacity } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from './../../routes/routes';
 import { styles } from './styles';
@@ -33,8 +33,8 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
         <Text style={styles.loginText}>Entrar</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity  onPress={() => navigation.navigate('Login')} style={styles.newAccountButtom}>
-      <Text style={styles.newAccountText}>Entrar em outra conta</Text>
+      <TouchableOpacity onPress={() => navigation.navigate('Login')} style={styles.newAccountButtom}>
+        <Text style={styles.newAccountText}>Entrar em outra conta</Text>
       </TouchableOpacity>
 
       <TouchableOpacity>
@@ -43,8 +43,8 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
 
       <Image style={styles.image3} source={Logometa} />
 
-    
-      
+
+
 
     </View>
   );
